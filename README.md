@@ -36,8 +36,6 @@ if __name__ == "__main__":
 Por esto
 
 ```py
-
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Licencia Creative Commons Atribución 3.0 No portada</a>.
 #!/usr/bin/env python
 
 def get_env_variable(var_name):
