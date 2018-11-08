@@ -7,7 +7,7 @@ Tomé de guía la estructura de diseño que se explica en el [libro](https://www
 ## Set de herramientas en mis proyectos
 
 - [Virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/index.html) que es un conjunto de extensiones para [virtualenv](https://pypi.org/project/virtualenv/) de Ian Bicking.
-- [Visual Studio Code](https://code.visualstudio.com/) como IDE multiplataforma para escribir el código.
+- [Visual Studio Code](https://code.visualstudio.com/) como IDE multiplataforma.
 - [python-decouple](https://pypi.org/project/python-decouple/) para separar configuraciones y código.
 - [Git](https://git-scm.com/) como control de versiones.
 - [EditorConfig](https://editorconfig.org/) que me ayuda a definir y mantener estilos de codificación consistentes entre diferentes editores e IDEs.
