@@ -127,3 +127,12 @@ TEMPLATES = [
 ]
 ```
 
+### Cambios en Modelos
+
+#### Cambios de Nombres de Modelos usando Autenticación y Autorización
+
+Cada vez que agregamos (o modificamos) un modelo nuevo en Django, éste no actualiza la descripción en la tabla "django_content_type" que es la que maneja los nombres de cada modelo sino que agrega un registro nuevo con el nuevo nombre.
+
+Si se cambia el nombre de un modelo que ya estaba en uso, aparte de hacer las migraciones correspondientes, hay que revisar las tablas "django_content_type", "auth_permision" para ver si no hay que eliminar las entradas que hacen referencia al modelo que ya no existe mediante su id.
+
+También hay que revisar la tabla "django_admin_log" que maneja la información histórica de cada ABM que hacemos en un modelo y actualizar el valor anterior de id por el nuevo para no perder el histórico de cambios.
